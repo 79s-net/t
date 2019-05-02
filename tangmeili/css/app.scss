@@ -1,0 +1,83 @@
+$background:#f2f2f2;
+$one:#af4232;
+$two:#872472;
+$three:#785736;
+$foru:#198274;
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   cursor: pointer;
+}
+.wp{
+   width: 1200px;
+   margin: 100px auto 0;
+   // background: $background;
+}
+@font-face {
+   font-family: 'iconfont';  /* project id 1169505 */
+   src: url('http://at.alicdn.com/t/font_1169505_7zdj06eut9h.eot');
+   src: url('http://at.alicdn.com/t/font_1169505_7zdj06eut9h.eot?#iefix') format('embedded-opentype'),
+   url('http://at.alicdn.com/t/font_1169505_7zdj06eut9h.woff2') format('woff2'),
+   url('http://at.alicdn.com/t/font_1169505_7zdj06eut9h.woff') format('woff'),
+   url('http://at.alicdn.com/t/font_1169505_7zdj06eut9h.ttf') format('truetype'),
+   url('http://at.alicdn.com/t/font_1169505_7zdj06eut9h.svg#iconfont') format('svg');
+ }
+ ul{
+   list-style: none !important;
+}
+.list{
+   width: 300px;
+   height: 300px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   margin: 100px auto 0;
+   >li{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      >i{
+         display: flex;
+         flex-direction: wrap;
+         align-items: center;
+         justify-content: center;
+         margin-bottom: 14px;
+         background: $one;
+      
+        
+      }
+      >i:hover{
+         box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.1);
+      }
+      > .list_iconfont{
+         font-family: 'iconfont'; 
+         font-style: normal;
+         width: 80px;
+         height: 80px;
+         border-radius: 16px;
+         color: $background;
+         font-size: 36px;
+      }
+      &:nth-child(2){
+         >i{
+            background:$two;
+         }
+      }
+      &:nth-child(3){
+         >i{
+            background:$three;
+         }
+          
+      }
+      &:nth-child(4){
+         >i{
+            background:$foru; 
+         }
+        
+      }
+   }
+}

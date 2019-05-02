@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.wp {
+  width: 1200px;
+  margin: 100px auto 0;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  /* project id 1169505 */
+  src: url("http://at.alicdn.com/t/font_1169505_7zdj06eut9h.eot");
+  src: url("http://at.alicdn.com/t/font_1169505_7zdj06eut9h.eot?#iefix") format("embedded-opentype"), url("http://at.alicdn.com/t/font_1169505_7zdj06eut9h.woff2") format("woff2"), url("http://at.alicdn.com/t/font_1169505_7zdj06eut9h.woff") format("woff"), url("http://at.alicdn.com/t/font_1169505_7zdj06eut9h.ttf") format("truetype"), url("http://at.alicdn.com/t/font_1169505_7zdj06eut9h.svg#iconfont") format("svg");
+}
+ul {
+  list-style: none !important;
+}
+
+.list {
+  width: 300px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 100px auto 0;
+}
+.list > li {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.list > li > i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap;
+          flex-direction: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 14px;
+  background: #af4232;
+}
+.list > li > i:hover {
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.list > li > .list_iconfont {
+  font-family: 'iconfont';
+  font-style: normal;
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  color: #f2f2f2;
+  font-size: 36px;
+}
+.list > li:nth-child(2) > i {
+  background: #872472;
+}
+.list > li:nth-child(3) > i {
+  background: #785736;
+}
+.list > li:nth-child(4) > i {
+  background: #198274;
+}
