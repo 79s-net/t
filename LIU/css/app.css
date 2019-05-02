@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "iconfont";
+  /* project id 1031917 */
+  src: url("http://at.alicdn.com/t/font_1031917_lcafbd3qbeb.eot");
+  src: url("http://at.alicdn.com/t/font_1031917_lcafbd3qbeb.eot?#iefix") format("embedded-opentype"), url("http://at.alicdn.com/t/font_1031917_lcafbd3qbeb.woff2") format("woff2"), url("http://at.alicdn.com/t/font_1031917_lcafbd3qbeb.woff") format("woff"), url("http://at.alicdn.com/t/font_1031917_lcafbd3qbeb.ttf") format("truetype"), url("http://at.alicdn.com/t/font_1031917_lcafbd3qbeb.svg#iconfont") format("svg");
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  width: 350px;
+  margin: 100px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.list > li {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+.list > li:hover {
+  cursor: pointer;
+}
+.list > li > i {
+  width: 80px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+  color: #fff;
+  background-color: #67c23a;
+  border-radius: 30px;
+}
+.list > li > span {
+  margin-top: 10px;
+}
+.list > li:nth-child(2) > i {
+  background-color: #E6A23C;
+}
+.list > li:nth-child(3) > i {
+  background-color: #F56C6C;
+}
+.list > li:nth-child(4) > i {
+  background-color: #909399;
+}
